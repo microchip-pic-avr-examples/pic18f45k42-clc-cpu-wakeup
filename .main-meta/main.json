@@ -2,7 +2,7 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
+        "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f45k42-clc-cpu-wakeup",
         "version": "2.0.0",
         "displayName": "CLC for Complex CPU Wake-up Conditions",
