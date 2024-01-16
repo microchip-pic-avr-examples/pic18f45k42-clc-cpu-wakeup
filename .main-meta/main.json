@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f45k42-clc-cpu-wakeup",
+        "version": "2.0.0",
+        "displayName": "CLC for Complex CPU Wake-up Conditions",
+        "projectName": "pic18f45k42-clc-cpu-wakeup",
+        "shortDescription": "Example to use CLC peripheral for complex CPU wake-up conditions",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.15.0"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.0.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-K_DFP",
+            "semverRange": "^1.0.53"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.75.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +32,18 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC18F45K42",
                 "versionRange": "*"
             }
         },
-        "author": "",
-        "subcategories": [
-            "",
-            [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
-        ],
+        "author": "microchip",
         "peripherals": [
-            "",""
+            "CLC","CMP","FVR"
         ],
         "keywords": [
-            "",
-            ""			
+            "Wakeup",
+            "Button",
+            "INT"			
         ],
 		"additionalData": {
 			"longDescription": {
